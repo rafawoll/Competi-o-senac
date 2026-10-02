@@ -3,6 +3,7 @@
     margin:0;
     box-sizing: border-box;
 }
+/*Fiz meu site escuro*/
 :root{
     ---cor1: #4d4c4c;
     ---cor2: #1c0983;
@@ -12,15 +13,17 @@
     ---cor6: #dd3939;
     ---cor7: #351f1f;
     ---cor8: #4b485a;
+    ---cor9: #000;
     ---corfont: #ece4e4;
 }
 
-
+/*Importei a fonte como era requisitado, direto no body*/
 body{
     background-color:var(---cor1);
      font-family: "Open Sans", sans-serif;
      
 }
+/*Cabeçalho*/
 header{
    background-color:var(---cor4);
    text-align: left;
@@ -37,10 +40,12 @@ main{
     height: 450px;
     border-radius: 7px;
     font-size: medium;
+   
 }
 
 h2{
-    margin: 5px 0 0 15px
+    margin: 5px 0 0 15px;
+
 }
 nav{
     text-align: center;
@@ -60,6 +65,7 @@ article{
 p{
     padding: 5px;
 }
+/*Butão ligado ao JS*/
 button{
     background-color:var(---cor5);
     color: var(---corfont);
@@ -79,10 +85,9 @@ ul{
 li{
     padding: 10px;
 }
-
+/*rodapé*/
 footer{
     text-align: center;
     background-color: var(---cor4);
     color: var(---corfont);
-
 }
